@@ -13,8 +13,8 @@ This project performs web scraping to extract the pricing of internet plans offe
 ### 1. Clone this repository:
 
 ```bash
-git clone <repository-url>
-cd <repository-name>
+git clone https://github.com/jovazxc/sunroom-scraping
+cd sunroom-scraping
 ```
 
 ### 2. Install dependencies using Yarn:
