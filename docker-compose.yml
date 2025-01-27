@@ -1,0 +1,15 @@
+services:
+  web-scraping:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    ports:
+      - "3001:3001"
+    restart: always
+    environment:
+      - HEADLESS=true
+      - PORT=3001
+      - SUNROOM_USERNAME=0303030303
+      - SUNROOM_PASSWORD=scraping
+      - SUNROOM_URLBASE=https://sunroomrentals.com
+      - SPECTRUM_URLBASE=https://www.spectrum.com
