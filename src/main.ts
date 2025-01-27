@@ -4,9 +4,6 @@ import { PORT } from "@/common/env";
 import { scrapingService } from "@/services/scraping";
 import { SunroomRouter } from "./routers/sunroom";
 
-// import { IListing } from "@/interfaces/sunroom/listing.interface";
-// import { getAvailablePlansByAddress } from "./controllers/spectrum/internet-plans";
-
 const app = express();
 
 scrapingService.initialize().then(async () => {
